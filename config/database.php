@@ -29,6 +29,7 @@ class Database {
             ];
 
            // Percobaan 5-1 Langkah 4
+<<<<<<< HEAD
            try {
             $this->conn = new PDO($dsn, $this->username,
             $this->password, $options);
@@ -36,6 +37,8 @@ class Database {
             throw new PDOException("Koneksi ke basis data gagal: " .
             $e->getMessage(), (int)$e->getCode());
            }
+=======
+>>>>>>> effdbc2acdad7966cd11645cc7612d9633718f33
            
         }
 
